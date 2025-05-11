@@ -1,12 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Online Auction System - Frontend
+This is the user interface for the Online Auction System. Users can view products, join auctions, and place bids. The page updates live when users place new bids.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
 
-## Expanding the ESLint configuration
+* Show product details
+* Join and bid in live auctions
+* Live updates of bids
+* Timer to end auction
+* Payment redirect for winner
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+Online Auction System - Backend
+This part runs the server for the auction system. It connects users and shares real-time bidding updates using Socket.IO.
+
+Features:
+
+* Node.js server with Express
+* Real-time bid updates
+* User connection tracking
+* Sends new bids to all users
+
