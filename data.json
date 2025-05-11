@@ -1,0 +1,201 @@
+{
+  "products": [
+    {
+      "name": "Audi 250",
+      "price": "500007",
+      "category": "Cars",
+      "owner": "admiralty20",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Audi_e-tron_%28Edit1%29.jpg/1024px-Audi_e-tron_%28Edit1%29.jpg",
+      "last_bidder": "sravya12@gmail.com"
+    },
+    {
+      "name": "Lamborghini S50",
+      "price": "200000",
+      "category": "Cars",
+      "owner": "susaske40",
+      "imageUrl": "https://images.unsplash.com/photo-1621135802920-133df287f89c?fm=jpg&q=60&w=3000",
+      "last_bidder": "geraldt01"
+    },
+    {
+      "name": "Ferrari F560",
+      "price": "100000",
+      "category": "Cars",
+      "owner": "samson35",
+      "imageUrl": "https://cars.bonhams.com/_next/image.jpg?url=https%3A%2F%2Fimg1.bonhams.com%2Fimage%3Fsrc%3DImages%2Flive%2F2021-05%2F31%2F25086445-3-42.jpg&w=2400&q=75",
+      "last_bidder": "admiralty20"
+    },
+    {
+      "name": "Kawasaki Ninja ZX-10R",
+      "price": "25000",
+      "category": "Bikes",
+      "owner": "bikeKing",
+      "imageUrl": "https://images.autox.com/uploads/2022/09/Kawasaki-Ninja-ZX-10R-Rront-Right-View.jpg",
+      "last_bidder": "rider23"
+    },
+    {
+      "name": "Harley Davidson Iron 883",
+      "price": "22000",
+      "category": "Bikes",
+      "owner": "harleyGuy",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqQdBtFuTd3KHw5WC4rRClMKT0agzTvChvw&s",
+      "last_bidder": "steelborn"
+    },
+    {
+      "name": "Gold Ring with Ruby",
+      "price": "25005",
+      "category": "Jewelry",
+      "description": "ruby with gold stones",
+      "imageUrl": "https://w0.peakpx.com/wallpaper/1001/964/HD-wallpaper-gold-ring-diamond-jewelry-ring.jpg",
+      "vrTourUrl": "",
+      "owner": "PALNATI",
+      "last_bidder": "SRAVYA"
+    },
+    {
+      "name": "Diamond Necklace",
+      "price": "120000",
+      "category": "Jewelry",
+      "description": "18K gold with embedded diamonds",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/033/238/713/non_2x/necklace-diamonds-silver-free-photo.jpg",
+      "owner": "diamondQueen",
+      "last_bidder": "nisha99"
+    },
+    {
+      "name": "The Great Gatsby",
+      "price": "20",
+      "category": "Books",
+      "owner": "bookworm1",
+      "imageUrl": "https://www.littlebrown.co.uk/wp-content/uploads/2020/07/hbg-title-the-great-gatsby-a-novel-13.jpg",
+      "last_bidder": "readerX"
+    },
+    {
+      "name": "1984",
+      "price": "15",
+      "category": "Books",
+      "owner": "reader42",
+      "imageUrl": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "last_bidder": "booklover"
+    },
+    {
+      "name": "To Kill a Mockingbird",
+      "price": "18",
+      "category": "Books",
+      "owner": "harperfan",
+      "imageUrl": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+      "last_bidder": "historybuff"
+    },
+    {
+      "name": "Harry Potter and the Philosopher's Stone",
+      "price": "25",
+      "category": "Books",
+      "owner": "hogwartsfan",
+      "imageUrl": "https://covers.openlibrary.org/b/id/7884866-L.jpg",
+      "last_bidder": "wizard23"
+    },
+    {
+      "name": "Sapiens: A Brief History of Humankind",
+      "price": "22",
+      "category": "Books",
+      "owner": "yuvalread",
+      "imageUrl": "https://www.eourmart.com/cdn/shop/products/Sapiens2.png?v=1672129592&width=1445",
+      "last_bidder": "thinker9"
+    },
+    {
+      "name": "Abstract Canvas",
+      "price": "150",
+      "category": "Art",
+      "owner": "Emma Watson",
+      "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/kkcwo7k0/poster/r/0/m/extra-large-abstract-painting-print-waterproof-canvas-poster-24-original-imafzq3myuwj45r2.jpeg?q=90&crop=false",
+      "last_bidder": "artlover"
+    },
+    {
+      "name": "Sculpture of Liberty",
+      "price": "300",
+      "category": "Art",
+      "owner": "Chris Nolan",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtJ1mcoXVL8kh-HtAfwHgxFoeGTVkpQHCzvphEpG7FpXnBDabWr0yH95NfZkc7ZlaZYY&usqp=CAU",
+      "last_bidder": "nycFan"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "price": "75",
+      "category": "Gadgets",
+      "owner": "Jake Paul",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcfNgZ_fbNEdgXr11fGK6znald0WJYYHGGeg&s",
+      "last_bidder": "techgeek"
+    },
+    {
+      "name": "Smartwatch Pro",
+      "price": "220",
+      "category": "Gadgets",
+      "owner": "Sophia Lee",
+      "imageUrl": "https://c4.wallpaperflare.com/wallpaper/349/930/476/silver-iwatch-smart-watch-wallpaper-preview.jpg",
+      "last_bidder": "stepcounter"
+    },
+    {
+      "name": "Rolex Submariner",
+      "price": "35000",
+      "category": "Watches",
+      "description": "Luxury diving watch with automatic movement",
+      "imageUrl": "https://images.unsplash.com/photo-1670404160620-a3a86428560e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9sZXglMjBzdWJtYXJpbmVyfGVufDB8fDB8fHww",
+      "owner": "watchLord",
+      "last_bidder": "vipBidder"
+    },
+    {
+      "name": "Michael Kors",
+      "price": "28000",
+      "category": "Designer Handbags",
+      "imageUrl": "https://megafashion.co.in/storage/2024/05/b7cd5e_a20af307b1b94d138518b44b74262fd1mv2.webp",
+      "owner": "fashionista88",
+      "last_bidder": "diva99"
+    },
+    {
+      "name": "Omega Speedmaster",
+      "price": "18000",
+      "category": "Watches",
+      "imageUrl": "https://media.gq-magazine.co.uk/photos/6040b62e6ea5d542cb3f0ed6/16:9/w_2560%2Cc_limit/GettyImages-681268494.jpg",
+      "owner": "PALNATI",
+      "last_bidder": "fastBid"
+    },
+    {
+      "name": "Diamond Pearl Necklace",
+      "price": "300000",
+      "category": "Designer Handbags",
+      "imageUrl": "https://4.imimg.com/data4/VX/SN/MY-3520335/diamond-necklace-500x500.jpg",
+      "owner": "highclass",
+      "last_bidder": "glamqueen"
+    },
+    {
+      "name": "FASTRACK RADIANT FX2",
+      "price": "3000",
+      "description": "black",
+      "category": "watch",
+      "imageUrl": "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4cd88d38/images/Fastrack/Catalog/38140NM01_1.jpg?sw=800&sh=800",
+      "vrTourUrl": "",
+      "videoUrl": "",
+      "owner": "2300030503@kluniversity.in",
+      "last_bidder": ""
+    },
+    {
+      "name": "Diamond studs",
+      "price": "25000",
+      "description": "Earrings",
+      "category": "jewelry",
+      "imageUrl": "https://images.unsplash.com/photo-1693212793204-bcea856c75fe?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlhbW9uZCUyMGVhcnJpbmdzfGVufDB8fDB8fHww",
+      "vrTourUrl": "",
+      "videoUrl": "",
+      "owner": "nikisvt13@gmail.com",
+      "last_bidder": ""
+    },
+    {
+      "name": "phone",
+      "price": "123456",
+      "description": "black",
+      "category": "phone",
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5875/5875300cv11d.jpg",
+      "vrTourUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5875/5875300cv11d.jpg",
+      "videoUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5875/5875300cv11d.jpg",
+      "owner": "nikisvt13@gmail.com",
+      "last_bidder": ""
+    }
+  ]
+}
