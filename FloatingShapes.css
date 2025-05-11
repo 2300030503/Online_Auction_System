@@ -1,0 +1,122 @@
+.floating-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.floating-shapes li {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgba(30, 215, 96, 0.15);
+  animation: float 25s linear infinite;
+  bottom: -150px;
+  border-radius: 50%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.floating-shapes li:nth-child(odd) {
+  background: rgba(30, 215, 96, 0.08);
+}
+
+.floating-shapes li:nth-child(1) {
+  left: 10%;
+  width: 25px;
+  height: 25px;
+  animation-duration: 20s;
+}
+.floating-shapes li:nth-child(2) {
+  left: 20%;
+  animation-duration: 15s;
+}
+.floating-shapes li:nth-child(3) {
+  left: 30%;
+  width: 18px;
+  height: 18px;
+  animation-duration: 17s;
+}
+.floating-shapes li:nth-child(4) {
+  left: 50%;
+  animation-duration: 22s;
+}
+.floating-shapes li:nth-child(5) {
+  left: 70%;
+  width: 10px;
+  height: 10px;
+  animation-duration: 19s;
+}
+/* Add more if you want */
+.floating-shapes {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+overflow: hidden;
+margin: 0;
+padding: 0;
+list-style: none;
+pointer-events: none;
+}
+
+.floating-shapes li {
+position: absolute;
+display: block;
+animation: floatUp 18s linear infinite;
+bottom: -50px;
+opacity: 0;
+}
+
+.shape {
+font-size: 1.5rem;
+opacity: 0.7;
+filter: drop-shadow(0 0 6px rgba(255, 223, 0, 0.8));
+}
+
+@keyframes floatUp {
+0% {
+  transform: translateY(0) scale(1);
+  opacity: 0;
+}
+30% {
+  opacity: 1;
+}
+100% {
+  transform: translateY(-1000px) scale(1.2);
+  opacity: 0;
+}
+}
+
+/* Positioning for variety */
+.floating-shapes li:nth-child(1) { left: 10%; animation-delay: 0s; }
+.floating-shapes li:nth-child(2) { left: 20%; animation-delay: 2s; }
+.floating-shapes li:nth-child(3) { left: 30%; animation-delay: 4s; }
+.floating-shapes li:nth-child(4) { left: 45%; animation-delay: 6s; }
+.floating-shapes li:nth-child(5) { left: 60%; animation-delay: 3s; }
+.floating-shapes li:nth-child(6) { left: 75%; animation-delay: 5s; }
+.floating-shapes li:nth-child(7) { left: 85%; animation-delay: 1s; }
+.floating-shapes li:nth-child(8) { left: 50%; animation-delay: 7s; }
+.floating-shapes li:nth-child(9) { left: 35%; animation-delay: 8s; }
+.floating-shapes li:nth-child(10){ left: 65%; animation-delay: 9s; }

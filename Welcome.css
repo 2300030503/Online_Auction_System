@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+}
+
+.welcome__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.welcome__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  background-color: #000; /* Black navbar */
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo .dot {
+  color: #7c3aed;
+}
+
+.welcome__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links li button:hover {
+  color: #7c3aed;
+}
+
+.profile-icon-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.profile-icon-btn:hover {
+  background-color: #111827;
+}
+
+.profile-icon {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.welcome__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 6%;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.welcome__left {
+  flex: 1;
+  min-width: 350px;
+  max-width: 48%;
+}
+
+.welcome__left h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  color: #111827;
+}
+
+.green-text {
+  color: #16a34a;
+}
+
+.welcome__subtitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  color: #111827;
+}
+
+.welcome__desc {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.welcome__buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.outline-btn {
+  padding: 0.9rem 1.8rem;
+  border: 2px solid #7c3aed;
+  background-color: transparent;
+  color: #7c3aed;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.outline-btn:hover {
+  background-color: #f3e8ff;
+}
+
+.welcome__right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 52%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: contain;
+}
+
+.about-section {
+  padding: 4rem 6%;
+  background-color: #f9fafb;
+  color: #111827;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 2rem;
+  width: 280px;
+  text-align: center;
+}
+
+.about-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.about-card h3 {
+  font-size: 1.2rem;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-section {
+  padding: 4rem 6%;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact-section p {
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contact-details {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.contact-form-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form-preview input,
+.contact-form-preview textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+}
+
+.contact-form-preview button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+/* Add this to enhance the button appearance with hover effect */
+.contact-form-preview button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form-preview button:hover {
+  background-color: #0d6efd; /* A deeper blue */
+  transform: scale(1.05);    /* Slight grow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.help-section {
+  padding: 4rem 6%;
+  background-color: #e5e7eb;
+  text-align: left;
+}
+
+.help-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.help-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.help-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #444;
+}

@@ -1,0 +1,248 @@
+/* General Container */
+.auth__container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left Side with Branding */
+.auth__left {
+  flex: 1;
+  background: #000; /* Changed from gradient to black */
+  color: #fff; /* Default text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth__branding {
+  z-index: 2;
+  text-align: center;
+}
+
+.auth__branding h1 {
+  font-size: 2.8rem;
+  margin: 10px 0;
+  color: #ffff00; /* High contrast yellow for heading */
+}
+
+.auth__branding h2 {
+  font-size: 1.8rem;
+  color: #ffd700; /* Slightly softer yellow */
+}
+
+.auth__branding .highlight {
+  color: #ffeb3b; /* Bright highlight yellow */
+}
+
+.auth__branding p {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* Light gray for readability */
+}
+
+/* Sample animated yellow money packets */
+.money-packet {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 4px;
+  animation: floatMoney 6s infinite linear;
+  opacity: 0.8;
+}
+
+@keyframes floatMoney {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+}
+
+/* Right Side with Form */
+.auth__right {
+  flex: 1;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__box {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  background: white;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.auth__box h2 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.auth__box p {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.auth__box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.auth__box input[type="text"],
+.auth__box input[type="email"],
+.auth__box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth__box input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.auth__box button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth__box button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Google Button */
+.google-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Social Buttons */
+.auth__social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.auth__social button {
+  flex: 1;
+  margin: 0 0.3rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth__social button:hover {
+  background-color: #d5d5d5;
+}
+
+/* Divider */
+.auth__divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #aaa;
+  position: relative;
+}
+
+.auth__divider::before,
+.auth__divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+
+.auth__divider::before {
+  left: 0;
+}
+
+.auth__divider::after {
+  right: 0;
+}
+
+/* Error/Success Messages */
+.auth__error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.auth__success {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Bottom Text */
+.auth__bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.auth__bottom span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.auth__bottom span:hover {
+  color: #0056b3;
+}
+
+/* Contact Form Button */
+.contact-form-preview button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form-preview button[type="submit"]:hover {
+  background-color: #0056b3;
+}
